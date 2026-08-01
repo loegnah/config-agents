@@ -1,0 +1,364 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-02-04T07:21:52.778Z",
+      "updatedAt": "2026-05-21T07:06:52.815Z"
+    },
+    "karpathy-guidelines": {
+      "source": "multica-ai/andrej-karpathy-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/multica-ai/andrej-karpathy-skills.git",
+      "skillPath": "skills/karpathy-guidelines/SKILL.md",
+      "skillFolderHash": "e119339197d600aa39a24fd7a95c946800c9c949",
+      "pluginName": "andrej-karpathy-skills",
+      "installedAt": "2026-04-27T14:53:05.251Z",
+      "updatedAt": "2026-07-23T13:03:23.431Z"
+    },
+    "cancel": {
+      "source": "q00/ouroboros",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/q00/ouroboros.git",
+      "skillPath": "skills/cancel/SKILL.md",
+      "skillFolderHash": "4e3db3fcbe33cf254aa7f64598d168d21a4132f2",
+      "installedAt": "2026-05-04T14:30:09.302Z",
+      "updatedAt": "2026-05-04T14:30:09.302Z"
+    },
+    "evaluate": {
+      "source": "q00/ouroboros",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/q00/ouroboros.git",
+      "skillPath": "skills/evaluate/SKILL.md",
+      "skillFolderHash": "d151948a81e3a8c56f6d8bc11baf5507c462a447",
+      "installedAt": "2026-05-04T14:30:09.304Z",
+      "updatedAt": "2026-05-04T14:30:09.304Z"
+    },
+    "evolve": {
+      "source": "q00/ouroboros",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/q00/ouroboros.git",
+      "skillPath": "skills/evolve/SKILL.md",
+      "skillFolderHash": "6e452714d9f85646415ddaad058f34a3f8ee7184",
+      "installedAt": "2026-05-04T14:30:09.305Z",
+      "updatedAt": "2026-05-04T14:30:09.305Z"
+    },
+    "pm": {
+      "source": "q00/ouroboros",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/q00/ouroboros.git",
+      "skillPath": "skills/pm/SKILL.md",
+      "skillFolderHash": "e179b288519e323748621212a50bab47777d7e90",
+      "installedAt": "2026-05-04T14:30:09.307Z",
+      "updatedAt": "2026-05-04T14:30:09.307Z"
+    },
+    "publish": {
+      "source": "q00/ouroboros",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/q00/ouroboros.git",
+      "skillPath": "skills/publish/SKILL.md",
+      "skillFolderHash": "c8e433af79a68a1f24a77d810c9166275798703a",
+      "installedAt": "2026-05-04T14:30:09.308Z",
+      "updatedAt": "2026-05-04T14:30:09.308Z"
+    },
+    "qa": {
+      "source": "q00/ouroboros",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/q00/ouroboros.git",
+      "skillPath": "skills/qa/SKILL.md",
+      "skillFolderHash": "7c9d5df1c3d4ace012c45e7d42dbd7743a993bca",
+      "installedAt": "2026-05-04T14:30:09.308Z",
+      "updatedAt": "2026-05-04T14:30:09.308Z"
+    },
+    "resume-session": {
+      "source": "q00/ouroboros",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/q00/ouroboros.git",
+      "skillPath": "skills/resume-session/SKILL.md",
+      "skillFolderHash": "49d7a10bc81557eac288bd71606623a1d6181ba2",
+      "installedAt": "2026-05-04T14:30:09.309Z",
+      "updatedAt": "2026-05-04T14:30:09.309Z"
+    },
+    "status": {
+      "source": "q00/ouroboros",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/q00/ouroboros.git",
+      "skillPath": "skills/status/SKILL.md",
+      "skillFolderHash": "d4f09e01a3176eb051f7920040c869e807181a92",
+      "installedAt": "2026-05-04T14:30:09.312Z",
+      "updatedAt": "2026-05-04T14:30:09.312Z"
+    },
+    "tutorial": {
+      "source": "q00/ouroboros",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/q00/ouroboros.git",
+      "skillPath": "skills/tutorial/SKILL.md",
+      "skillFolderHash": "e5d845046ceb9842ec382f5f30ace5ead3e8e16c",
+      "installedAt": "2026-05-04T14:30:09.312Z",
+      "updatedAt": "2026-05-04T14:30:09.312Z"
+    },
+    "update": {
+      "source": "q00/ouroboros",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/q00/ouroboros.git",
+      "skillPath": "skills/update/SKILL.md",
+      "skillFolderHash": "b062df00c3b8f1aee7a50a806012f23b758a68a2",
+      "installedAt": "2026-05-04T14:30:09.313Z",
+      "updatedAt": "2026-05-04T14:30:09.313Z"
+    },
+    "cavecrew": {
+      "source": "JuliusBrussee/caveman",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/JuliusBrussee/caveman.git",
+      "skillPath": "skills/cavecrew/SKILL.md",
+      "skillFolderHash": "326ab384eb445cc0a74608d6f0c0abe6558bb44a",
+      "installedAt": "2026-06-12T14:58:09.220Z",
+      "updatedAt": "2026-07-30T16:50:34.625Z"
+    },
+    "caveman": {
+      "source": "JuliusBrussee/caveman",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/JuliusBrussee/caveman.git",
+      "skillPath": "skills/caveman/SKILL.md",
+      "skillFolderHash": "166040c027f7764d43df36abc5df0079bfc6394b",
+      "installedAt": "2026-06-12T14:58:09.222Z",
+      "updatedAt": "2026-07-30T16:50:34.627Z"
+    },
+    "caveman-compress": {
+      "source": "JuliusBrussee/caveman",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/JuliusBrussee/caveman.git",
+      "skillPath": "skills/caveman-compress/SKILL.md",
+      "skillFolderHash": "1284ac809fbdaeb9e871f84ee850aebe10c85030",
+      "installedAt": "2026-06-12T14:58:09.222Z",
+      "updatedAt": "2026-07-30T16:50:34.627Z"
+    },
+    "orchestration": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/orchestration/SKILL.md",
+      "skillFolderHash": "9aa26fde93c0592e5983cdca1ccd33b402802255",
+      "installedAt": "2026-07-17T12:46:28.315Z",
+      "updatedAt": "2026-07-23T13:51:52.804Z"
+    },
+    "computer-use": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/computer-use/SKILL.md",
+      "skillFolderHash": "2072384f53670cb61d93f4f6264ad2d8f6b5239c",
+      "installedAt": "2026-07-17T12:49:29.929Z",
+      "updatedAt": "2026-07-26T05:49:22.053Z"
+    },
+    "orca-cli": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/orca-cli/SKILL.md",
+      "skillFolderHash": "97f6596bb43a56c6e81246f077c35144c9025343",
+      "installedAt": "2026-07-17T12:49:29.930Z",
+      "updatedAt": "2026-07-26T05:49:28.502Z"
+    },
+    "orca-per-workspace-env": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/orca-per-workspace-env/SKILL.md",
+      "skillFolderHash": "942b9397139f9d5b6cd4164339c965c35494985d",
+      "installedAt": "2026-07-19T08:50:14.957Z",
+      "updatedAt": "2026-07-26T05:49:35.219Z"
+    },
+    "lgnh-branch-clear-gone": {
+      "source": "loegnah/ai-kit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/loegnah/ai-kit.git",
+      "skillPath": "plugins/dev/skills/lgnh-branch-clear-gone/SKILL.md",
+      "skillFolderHash": "ca077a55d8e078c8a112ba257374afaa1e27d5da",
+      "pluginName": "dev",
+      "installedAt": "2026-07-23T13:08:27.164Z",
+      "updatedAt": "2026-07-23T13:08:27.164Z"
+    },
+    "lgnh-code-simplify": {
+      "source": "loegnah/ai-kit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/loegnah/ai-kit.git",
+      "skillPath": "plugins/dev/skills/lgnh-code-simplify/SKILL.md",
+      "skillFolderHash": "f0426c778a1687173cfce2c05252844509a96ebf",
+      "pluginName": "dev",
+      "installedAt": "2026-07-23T13:08:27.165Z",
+      "updatedAt": "2026-07-23T13:08:27.165Z"
+    },
+    "lgnh-commit-detail": {
+      "source": "loegnah/ai-kit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/loegnah/ai-kit.git",
+      "skillPath": "plugins/dev/skills/lgnh-commit-detail/SKILL.md",
+      "skillFolderHash": "539dd0ff79f762161a17236a30606a6b3ea6f4eb",
+      "pluginName": "dev",
+      "installedAt": "2026-07-23T13:08:27.166Z",
+      "updatedAt": "2026-07-23T13:08:27.166Z"
+    },
+    "lgnh-rebase-worktrees": {
+      "source": "loegnah/ai-kit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/loegnah/ai-kit.git",
+      "skillPath": "plugins/dev/skills/lgnh-rebase-worktrees/SKILL.md",
+      "skillFolderHash": "8816687094a37d559033d7256e4150c53676297c",
+      "pluginName": "dev",
+      "installedAt": "2026-07-23T13:08:27.167Z",
+      "updatedAt": "2026-07-23T13:08:27.167Z"
+    },
+    "lgnh-resolve-conflict": {
+      "source": "loegnah/ai-kit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/loegnah/ai-kit.git",
+      "skillPath": "plugins/dev/skills/lgnh-resolve-conflict/SKILL.md",
+      "skillFolderHash": "be6d9174a4d11938fec5494b9fcde144ced6b7a0",
+      "pluginName": "dev",
+      "installedAt": "2026-07-23T13:08:27.167Z",
+      "updatedAt": "2026-07-23T13:08:27.167Z"
+    },
+    "lgnh-review-conflict": {
+      "source": "loegnah/ai-kit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/loegnah/ai-kit.git",
+      "skillPath": "plugins/dev/skills/lgnh-review-conflict/SKILL.md",
+      "skillFolderHash": "7ab4a6d08583ada889ac0d84ce4a4da5f836c911",
+      "pluginName": "dev",
+      "installedAt": "2026-07-23T13:08:27.167Z",
+      "updatedAt": "2026-07-23T13:08:27.167Z"
+    },
+    "grill-me": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "skillFolderHash": "c817f6f36acd483294144694a935a76d3e3eb101",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-23T13:38:36.874Z",
+      "updatedAt": "2026-07-23T13:38:36.874Z"
+    },
+    "grill-with-docs": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
+      "skillFolderHash": "5fdcdeedf2d0c73b3ecb1da0a464dd885590f8d6",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-23T13:38:36.876Z",
+      "updatedAt": "2026-07-23T13:38:36.876Z"
+    },
+    "grilling": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/productivity/grilling/SKILL.md",
+      "skillFolderHash": "10b0db61f9b3869243db8a1a0ee84f862139b94e",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-23T13:38:36.876Z",
+      "updatedAt": "2026-07-23T13:38:36.876Z"
+    },
+    "handoff": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/productivity/handoff/SKILL.md",
+      "skillFolderHash": "184d485ae68a2132893a94239b2b85d253e6152b",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-23T13:38:36.877Z",
+      "updatedAt": "2026-07-23T13:38:36.877Z"
+    },
+    "prototype": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/prototype/SKILL.md",
+      "skillFolderHash": "dd3d782b69ccb67493fbe76b84149399da3c9fee",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-23T13:38:36.877Z",
+      "updatedAt": "2026-07-23T13:38:36.877Z"
+    },
+    "code-review": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/code-review/SKILL.md",
+      "skillFolderHash": "474a27d46efb1eff9724a29ae1edc9cd8a75d911",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-23T13:38:36.877Z",
+      "updatedAt": "2026-07-23T13:38:36.877Z"
+    },
+    "codebase-design": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/codebase-design/SKILL.md",
+      "skillFolderHash": "7347168e8de2de105e2e55f07ecb33d25fd56f44",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-23T13:38:36.877Z",
+      "updatedAt": "2026-07-23T13:38:36.877Z"
+    },
+    "diagnosing-bugs": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/diagnosing-bugs/SKILL.md",
+      "skillFolderHash": "27bf00e3ccc53491e938e8b5602be39238ce68f3",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-23T13:38:36.878Z",
+      "updatedAt": "2026-07-23T13:38:36.878Z"
+    },
+    "domain-modeling": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/domain-modeling/SKILL.md",
+      "skillFolderHash": "959e63161ff78b4b1cd553b2c0e09e0c68418e5f",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-23T13:38:36.878Z",
+      "updatedAt": "2026-07-23T13:38:36.878Z"
+    },
+    "improve-codebase-architecture": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "skillFolderHash": "bce229692e60dff3462e49bc5e774e83bef348e6",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-23T13:38:36.879Z",
+      "updatedAt": "2026-07-23T13:38:36.879Z"
+    },
+    "qwe": {
+      "source": "loegnah/ai-kit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/loegnah/ai-kit.git",
+      "skillPath": "skills/qwe/SKILL.md",
+      "skillFolderHash": "d2a11e1e253fc197f34ae7826ca18efa6e26dd43",
+      "installedAt": "2026-07-24T16:14:24.420Z",
+      "updatedAt": "2026-08-01T11:44:45.861Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed"
+  ]
+}
