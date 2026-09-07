@@ -2,13 +2,6 @@
 
 !important _한글로 대답해_
 
-## plugin
-
-아래 플러그인이 안켜져있으면 관련 스킬 사용해서 켜기
-
-- caveman full
-- ponytail full
-
 ## memory
 
 메모리 검색이 필요하거나 작업 마무리 단계에서 아래 작업 수행
