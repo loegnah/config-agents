@@ -386,6 +386,16 @@
       "skillFolderHash": "0231bee7d4a751329a155e361290105f390b7a55",
       "installedAt": "2026-09-07T06:18:48.374Z",
       "updatedAt": "2026-09-07T06:18:48.374Z"
+    },
+    "ego-browser": {
+      "source": "citrolabs/ego-lite",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/citrolabs/ego-lite.git",
+      "skillPath": "skills/ego-browser/SKILL.md",
+      "skillFolderHash": "416d53f981ba706c2aff4ac1f203a6402ead4821",
+      "pluginName": "browser-skills",
+      "installedAt": "2026-09-10T04:19:47.287Z",
+      "updatedAt": "2026-09-10T04:19:47.287Z"
     }
   },
   "dismissed": {
@@ -393,14 +403,13 @@
   },
   "lastSelectedAgents": [
     "amp",
-    "antigravity",
-    "antigravity-cli",
     "cline",
     "codex",
     "cursor",
-    "deepagents",
+    "droid",
     "gemini-cli",
     "github-copilot",
+    "kilo",
     "kimi-code-cli",
     "opencode",
     "warp",

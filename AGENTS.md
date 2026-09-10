@@ -1,6 +1,7 @@
 ## 공통
 
-!important _한글로 대답해_
+- !important _한글로 대답해_
+- 명시적인 수정, 진행 멘트 없으면 edit 금지
 
 ## memory
 
