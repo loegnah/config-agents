@@ -23,6 +23,11 @@
 
 - 코드 수정 등으로 프로젝트 내의 AGENTS.md가 업데이트 필요하다고 생각될 떈 사용자에게 물어볼 것.
 
+## Browser test (e2e)
+
+명시적인 지시 없을 경우 아래 우선순위로 사용할 것.
+- "ego-browser" skills -> "aside" mcp  -> agent harness
+
 <!-- CODEGRAPH_START -->
 
 ## CodeGraph
