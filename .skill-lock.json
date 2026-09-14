@@ -396,6 +396,15 @@
       "pluginName": "browser-skills",
       "installedAt": "2026-09-10T04:19:47.287Z",
       "updatedAt": "2026-09-10T04:19:47.287Z"
+    },
+    "diagram-design": {
+      "source": "cathrynlavery/diagram-design",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cathrynlavery/diagram-design.git",
+      "skillPath": "skills/diagram-design/SKILL.md",
+      "skillFolderHash": "de5d854d15dd9f92752a9a229fe68076e1cb8f6b",
+      "installedAt": "2026-09-14T10:43:59.358Z",
+      "updatedAt": "2026-09-14T10:43:59.358Z"
     }
   },
   "dismissed": {
