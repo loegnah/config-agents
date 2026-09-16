@@ -28,3 +28,15 @@
 명시적인 지시 없을 경우 아래 우선순위로 사용할 것.
 - "ego-browser" skills -> "aside" mcp  -> agent harness
 
+<!-- graft:start -->
+## Graft
+
+Repo context graph in `graft/`. Check before grep/read.
+
+- `graft ask "<query>" --source`: Find & understand code spans.
+- `graft grep "<literal>"`: Exhaustive search across indexed symbols.
+- `graft callers <symbol> [--direction out] [--depth N]`: Call hierarchy & blast radius.
+- `graft skeleton <file>`: Signatures & line spans for a file.
+- `graft map`: Repo orientation (clusters, hubs).
+- `graft build`: Rebuild graph after large changes.
+<!-- graft:end -->
