@@ -5,28 +5,32 @@ description: "General developer and code explanation workflow runner."
 
 # ETC-LGNH Skill Runner
 
-Execute custom developer and code explanation workflows ONLY when explicitly invoked with `/etc-lgnh <keyword>`.
+Execute custom developer and code explanation workflows when invoked with `/etc-lgnh <keyword>` or matching workflow intent.
 
-## Keyword Subcommand Matcher
+## Rules
 
-When the user inputs `/etc-lgnh <keyword>`, match `<keyword>` against the keywords below to execute the corresponding catalog workflow:
+- NEVER run `glob`, `grep`, or directory listings to explore or verify catalog files.
+- Read the exact relative file path (`catalog/<filename>.md`) directly.
 
-**If invoked without a keyword (`/etc-lgnh` only)**: Print the table below (available keywords and workflows), prompt the user to choose a workflow, and exit. Do not read or execute any catalog files.
+## Workflow Dispatcher
 
-| Keywords                       | Target Workflow | Catalog File         |
-| :----------------------------- | :-------------- | :------------------- |
-| `eli5`, `explain-5`, `explain` | ELI5 Explainer  | `catalog/eli5.md`    |
-| `show-me`, `show`              | Show Me         | `catalog/show-me.md` |
+Match the user's keyword or intent against the workflows below:
+
+| Keywords / Intent                                   | Target Workflow | Catalog File                 |
+| :-------------------------------------------------- | :-------------- | :--------------------------- |
+| `eli5`, `explain-5`, `explain`                      | ELI5 Explainer  | `catalog/eli5.md`            |
+| `show-me`, `show`                                   | Show Me         | `catalog/show-me.md`         |
+| `humanize`, `humanize-korean`, `de-ai`, `im-not-ai` | Humanize Korean | `catalog/humanize-korean.md` |
 
 ## Execution Procedure
 
-1. **Locate Skill Directory**:
-   - Find the resolved installation directory of this `skills/etc-lgnh/SKILL.md` file.
-2. **Read Catalog Instruction**:
-   - Read `<etc_lgnh_skill_dir>/catalog/<filename>.md` matching the `<keyword>` using `read`.
-3. **Execute Steps**:
-   - Follow the instructions in the catalog file sequentially.
+1. **Match Workflow**: Identify the catalog file from the table above.
+2. **Read Catalog Directly**: Read `catalog/<filename>.md` directly using relative path.
+3. **Execute Steps**: Follow the instructions in the catalog file sequentially.
 
-## No-Keyword Behavior
+## Fallback / No-Keyword Behavior
 
-If `<keyword>` is empty (`/etc-lgnh` only), do not execute any catalog. Print the Keyword Subcommand Matcher table above to guide available commands.
+If invoked without a keyword (`/etc-lgnh` only) or if no workflow matches:
+
+- Print the table above to guide available commands and ask the user to choose.
+- Do not read any catalog files or inspect directories.

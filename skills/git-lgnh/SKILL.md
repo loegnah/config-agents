@@ -5,15 +5,18 @@ description: "Git automation and repository maintenance workflow runner."
 
 # GIT-LGNH Skill Runner
 
-Execute git automation and repository maintenance workflows ONLY when explicitly invoked with `/git-lgnh <keyword>`.
+Execute git automation and repository maintenance workflows when invoked with `/git-lgnh <keyword>` or matching git workflow intent.
 
-## Keyword Subcommand Matcher
+## Rules
 
-When the user inputs `/git-lgnh <keyword>`, match `<keyword>` against the keywords below to execute the corresponding catalog workflow:
+- NEVER run `glob`, `grep`, or directory listings to explore or verify catalog files.
+- Read the exact relative file path (`catalog/<filename>.md`) directly.
 
-**If invoked without a keyword (`/git-lgnh` only)**: Print the table below (available keywords and workflows), prompt the user to choose a workflow, and exit. Do not read or execute any catalog files.
+## Workflow Dispatcher
 
-| Keywords                                                  | Target Workflow   | Catalog File                   |
+Match the user's keyword or intent against the workflows below:
+
+| Keywords / Intent                                         | Target Workflow   | Catalog File                   |
 | :-------------------------------------------------------- | :---------------- | :----------------------------- |
 | `commit`, `commit-detail`, `ci`                           | Commit Detail     | `catalog/commit-detail.md`     |
 | `branch`, `clear-gone`, `gone`, `branch-clean`            | Branch Clear Gone | `catalog/branch-clear-gone.md` |
@@ -22,13 +25,13 @@ When the user inputs `/git-lgnh <keyword>`, match `<keyword>` against the keywor
 
 ## Execution Procedure
 
-1. **Locate Skill Directory**:
-   - Find the resolved installation directory of this `skills/git-lgnh/SKILL.md` file.
-2. **Read Catalog Instruction**:
-   - Read `<git_lgnh_skill_dir>/catalog/<filename>.md` matching the `<keyword>` using `read`.
-3. **Execute Steps**:
-   - Follow the instructions in the catalog file sequentially.
+1. **Match Workflow**: Identify the catalog file from the table above.
+2. **Read Catalog Directly**: Read `catalog/<filename>.md` directly using relative path.
+3. **Execute Steps**: Follow the instructions in the catalog file sequentially.
 
-## No-Keyword Behavior
+## Fallback / No-Keyword Behavior
 
-If `<keyword>` is empty (`/git-lgnh` only), do not execute any catalog. Print the Keyword Subcommand Matcher table above to guide available commands.
+If invoked without a keyword (`/git-lgnh` only) or if no workflow matches:
+
+- Print the table above to guide available commands and ask the user to choose.
+- Do not read any catalog files or inspect directories.
