@@ -106,9 +106,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/loegnah/ai-kit.git",
       "skillPath": "skills/sdlc-lgnh/SKILL.md",
-      "skillFolderHash": "5889763050f5d7259998ea615d988cb44a263a0b",
+      "skillFolderHash": "3754c852dc910cd31329e64769bfcae464fbe953",
       "installedAt": "2026-09-06T13:37:28.777Z",
-      "updatedAt": "2026-09-16T08:00:39.258Z"
+      "updatedAt": "2026-09-16T10:19:57.889Z"
     },
     "git-lgnh": {
       "source": "loegnah/ai-kit",
@@ -117,7 +117,7 @@
       "skillPath": "skills/git-lgnh/SKILL.md",
       "skillFolderHash": "99f73e00e779fa2a579fe918b6cc1c30dbe35dfc",
       "installedAt": "2026-09-06T16:41:12.989Z",
-      "updatedAt": "2026-09-16T08:00:39.257Z"
+      "updatedAt": "2026-09-16T10:19:57.888Z"
     },
     "work-lgnh": {
       "source": "loegnah/ai-kit",
@@ -126,7 +126,7 @@
       "skillPath": "skills/work-lgnh/SKILL.md",
       "skillFolderHash": "25693ded0540db0fd743cbdf064638d30b0971fb",
       "installedAt": "2026-09-06T16:41:12.994Z",
-      "updatedAt": "2026-09-16T08:00:39.259Z"
+      "updatedAt": "2026-09-16T10:19:57.890Z"
     },
     "grill-me": {
       "source": "mattpocock/skills",
@@ -225,7 +225,7 @@
       "skillPath": "skills/etc-lgnh/SKILL.md",
       "skillFolderHash": "903a1d0ec667c7a2e1bc0013e67534333f265437",
       "installedAt": "2026-09-07T06:18:48.374Z",
-      "updatedAt": "2026-09-16T08:00:39.255Z"
+      "updatedAt": "2026-09-16T10:19:57.884Z"
     },
     "ego-browser": {
       "source": "citrolabs/ego-lite",
