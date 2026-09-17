@@ -19,4 +19,11 @@ Stage all changes and create a git commit.
    - Add concise bullet points (`- `) only for complex changes that need context; skip body for standard/simple changes.
 
 4. **Execute Commit**
-   - Run `git commit -m "<subject>"` (or pass additional `-m "<bullet>"` flags if body is needed).
+   - Run `git commit -m "<message>"`
+   - If body bullets are needed, write the subject, an empty line, and the bullets inside a **single** `-m` argument (never split bullets across multiple `-m` flags):
+     ```bash
+     git commit -m "feat(scope): subject
+
+     - bullet 1
+     - bullet 2"
+     ```

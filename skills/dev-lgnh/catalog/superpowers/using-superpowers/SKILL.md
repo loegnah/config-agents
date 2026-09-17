@@ -65,20 +65,20 @@ User instructions (CLAUDE.md, AGENTS.md, GEMINI.md, etc, direct requests) take p
 ## Superpowers Skills Location in ai-kit
 
 In this repository, all Superpowers skills are located at:
-`skills/sdlc-lgnh/catalog/superpowers/<skill-name>/SKILL.md`
+`skills/dev-lgnh/catalog/superpowers/<skill-name>/SKILL.md`
 
 When invoking or loading a Superpowers skill, read its exact relative path directly:
 
-- `brainstorming` -> `skills/sdlc-lgnh/catalog/superpowers/brainstorming/SKILL.md`
-- `writing-plans` -> `skills/sdlc-lgnh/catalog/superpowers/writing-plans/SKILL.md`
-- `subagent-driven-development` -> `skills/sdlc-lgnh/catalog/superpowers/subagent-driven-development/SKILL.md`
-- `executing-plans` -> `skills/sdlc-lgnh/catalog/superpowers/executing-plans/SKILL.md`
-- `test-driven-development` -> `skills/sdlc-lgnh/catalog/superpowers/test-driven-development/SKILL.md`
-- `systematic-debugging` -> `skills/sdlc-lgnh/catalog/superpowers/systematic-debugging/SKILL.md`
-- `verification-before-completion` -> `skills/sdlc-lgnh/catalog/superpowers/verification-before-completion/SKILL.md`
-- `finishing-a-development-branch` -> `skills/sdlc-lgnh/catalog/superpowers/finishing-a-development-branch/SKILL.md`
-- `using-git-worktrees` -> `skills/sdlc-lgnh/catalog/superpowers/using-git-worktrees/SKILL.md`
-- `requesting-code-review` -> `skills/sdlc-lgnh/catalog/superpowers/requesting-code-review/SKILL.md`
-- `receiving-code-review` -> `skills/sdlc-lgnh/catalog/superpowers/receiving-code-review/SKILL.md`
-- `dispatching-parallel-agents` -> `skills/sdlc-lgnh/catalog/superpowers/dispatching-parallel-agents/SKILL.md`
-- `writing-skills` -> `skills/sdlc-lgnh/catalog/superpowers/writing-skills/SKILL.md`
+- `brainstorming` -> `skills/dev-lgnh/catalog/superpowers/brainstorming/SKILL.md`
+- `writing-plans` -> `skills/dev-lgnh/catalog/superpowers/writing-plans/SKILL.md`
+- `subagent-driven-development` -> `skills/dev-lgnh/catalog/superpowers/subagent-driven-development/SKILL.md`
+- `executing-plans` -> `skills/dev-lgnh/catalog/superpowers/executing-plans/SKILL.md`
+- `test-driven-development` -> `skills/dev-lgnh/catalog/superpowers/test-driven-development/SKILL.md`
+- `systematic-debugging` -> `skills/dev-lgnh/catalog/superpowers/systematic-debugging/SKILL.md`
+- `verification-before-completion` -> `skills/dev-lgnh/catalog/superpowers/verification-before-completion/SKILL.md`
+- `finishing-a-development-branch` -> `skills/dev-lgnh/catalog/superpowers/finishing-a-development-branch/SKILL.md`
+- `using-git-worktrees` -> `skills/dev-lgnh/catalog/superpowers/using-git-worktrees/SKILL.md`
+- `requesting-code-review` -> `skills/dev-lgnh/catalog/superpowers/requesting-code-review/SKILL.md`
+- `receiving-code-review` -> `skills/dev-lgnh/catalog/superpowers/receiving-code-review/SKILL.md`
+- `dispatching-parallel-agents` -> `skills/dev-lgnh/catalog/superpowers/dispatching-parallel-agents/SKILL.md`
+- `writing-skills` -> `skills/dev-lgnh/catalog/superpowers/writing-skills/SKILL.md`

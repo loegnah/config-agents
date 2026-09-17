@@ -23,7 +23,7 @@ Respond in the same language the user is using (e.g., Korean if the user communi
    - If argument provided, resolve `<target_dir>`.
    - If omitted:
      - Search `docs/story/` for the most recently modified directory containing `plan.md`.
-   - Read `<target_dir>/plan.md`. If missing, instruct user to run `/sdlc-lgnh plan` first.
+   - Read `<target_dir>/plan.md`. If missing, instruct user to run `/dev-lgnh plan` first.
    - Verify plan status is approved or ready for implementation.
 
 2. **Sequential Implementation**

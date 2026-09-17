@@ -1,11 +1,11 @@
 ---
-name: sdlc-lgnh
-description: "AI-native software development lifecycle (SDLC) workflow runner."
+name: dev-lgnh
+description: "Developer and software development lifecycle workflow runner."
 ---
 
-# SDLC-LGNH Skill Runner (AI-Native SDLC)
+# DEV-LGNH Skill Runner
 
-Execute AI-Native SDLC artifact workflows (`intent.md` -> `spec.md` -> `plan.md` -> `run.md`) when invoked with `/sdlc-lgnh <keyword>` or matching SDLC workflow intent.
+Execute developer and AI-Native SDLC artifact workflows (`intent.md` -> `spec.md` -> `plan.md` -> `run.md`) when invoked with `/dev-lgnh <keyword>` or matching workflow intent.
 
 ## Rules
 
@@ -18,10 +18,10 @@ Match the user's keyword or intent against the workflows below:
 
 | Keywords / Intent                                                    | Target Workflow             | Catalog File                                     |
 | :------------------------------------------------------------------- | :-------------------------- | :----------------------------------------------- |
-| `intent`, `draft-intent`, `init`                                     | Stage 1: Intent Capture     | `catalog/intent.md`                              |
-| `spec`, `draft-spec`, `design`                                       | Stage 2: Spec Specification | `catalog/spec.md`                                |
-| `plan`, `draft-plan`, `build-plan`                                   | Stage 3: Plan Mode          | `catalog/plan.md`                                |
-| `run`, `execute`, `exec`, `build`, `impl`, `verify`, `test`, `check` | Run & Verify Plan           | `catalog/run.md`                                 |
+| `intent`, `draft-intent`, `init`                                     | Stage 1: Intent Capture     | `catalog/sdlc/intent.md`                         |
+| `spec`, `draft-spec`, `design`                                       | Stage 2: Spec Specification | `catalog/sdlc/spec.md`                           |
+| `plan`, `draft-plan`, `build-plan`                                   | Stage 3: Plan Mode          | `catalog/sdlc/plan.md`                           |
+| `run`, `execute`, `exec`, `build`, `impl`, `verify`, `test`, `check` | Run & Verify Plan           | `catalog/sdlc/run.md`                            |
 | `simplify`                                                           | Simplify Code               | `catalog/simplify.md`                            |
 | `superpowers`                                                        | Superpowers Workflow        | `catalog/superpowers/using-superpowers/SKILL.md` |
 | `grill`, `grill-me`, `grilling`                                      | Relentless Interview        | `catalog/matt/grill/SKILL.md`                    |
@@ -36,7 +36,7 @@ Match the user's keyword or intent against the workflows below:
 
 ## Fallback / No-Keyword Behavior
 
-If invoked without a keyword (`/sdlc-lgnh` only) or if no workflow matches:
+If invoked without a keyword (`/dev-lgnh` only) or if no workflow matches:
 
 - Print the table above to guide available commands and ask the user to choose.
 - Do not read any catalog files or inspect directories.

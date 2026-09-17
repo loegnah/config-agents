@@ -22,7 +22,7 @@ Respond in the same language the user is using (e.g., Korean if the user communi
    - If argument provided, resolve `<target_dir>`.
    - If omitted:
      - Search `docs/story/` for the most recently modified directory containing `intent.md`.
-   - Read `<target_dir>/intent.md`. If missing, report error and instruct user to run `/sdlc-lgnh intent` first.
+   - Read `<target_dir>/intent.md`. If missing, report error and instruct user to run `/dev-lgnh intent` first.
 
 2. **Explore Codebase Context & Policies**
    - Inspect existing codebase architecture, directory layout, types, and relevant APIs.
@@ -65,4 +65,4 @@ Respond in the same language the user is using (e.g., Korean if the user communi
 
 4. **Report & Guide Next Step**
    - Summarize generated `spec.md`, explicitly highlighting any entries under `Areas of Concern`.
-   - Guide next step: Inform the user to review/approve the specification, then run `/sdlc-lgnh plan <target_dir>` (or `/sdlc-lgnh plan`) to formulate the Stage 3 implementation plan.
+   - Guide next step: Inform the user to review/approve the specification, then run `/dev-lgnh plan <target_dir>` (or `/dev-lgnh plan`) to formulate the Stage 3 implementation plan.

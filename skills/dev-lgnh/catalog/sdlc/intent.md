@@ -69,4 +69,4 @@ Respond in the same language the user is using (e.g., Korean if the user communi
 
 4. **Report & Guide Next Step**
    - Output created file path and a concise summary.
-   - Guide next step: Inform the user to review/approve the intent artifact, then run `/sdlc-lgnh spec <target_dir>` (or `/sdlc-lgnh spec`) to proceed with Stage 2 Design.
+   - Guide next step: Inform the user to review/approve the intent artifact, then run `/dev-lgnh spec <target_dir>` (or `/dev-lgnh spec`) to proceed with Stage 2 Design.

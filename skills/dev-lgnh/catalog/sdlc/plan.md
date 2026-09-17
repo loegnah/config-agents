@@ -22,7 +22,7 @@ Respond in the same language the user is using (e.g., Korean if the user communi
    - If argument provided, resolve `<target_dir>`.
    - If omitted:
      - Search `docs/story/` for the most recently modified directory containing `spec.md`.
-   - Read `<target_dir>/spec.md` and `<target_dir>/intent.md`. If `spec.md` is missing, instruct user to run `/sdlc-lgnh spec` first.
+   - Read `<target_dir>/spec.md` and `<target_dir>/intent.md`. If `spec.md` is missing, instruct user to run `/dev-lgnh spec` first.
 
 2. **Blast Radius & Codebase Investigation**
    - Investigate exact files that will need to be created, modified, or tested.
@@ -66,4 +66,4 @@ Respond in the same language the user is using (e.g., Korean if the user communi
 
 4. **Report & Guide Next Step**
    - Output `plan.md` summary, highlighting risk mitigations and proof criteria.
-   - Guide next step: Inform the user to review/approve the plan, then run `/sdlc-lgnh run <target_dir>` (or `/sdlc-lgnh run`) to begin implementation.
+   - Guide next step: Inform the user to review/approve the plan, then run `/dev-lgnh run <target_dir>` (or `/dev-lgnh run`) to begin implementation.
