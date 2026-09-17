@@ -5,10 +5,14 @@
 
 ## memory
 
-메모리 검색이 필요하거나 작업 마무리 단계에서 아래 작업 수행
+이전 세션 맥락이나 작업 기억이 필요할 때 hindsight 사용 (recall/retain)
 
-- 메모리 검색: hindsight mcp recall
-- 작업 마무리: hindsight mcp retain
+## Second Brain
+
+사용자의 개인 세컨드 브레인. 지식을 캡처(저장)하거나 검색할 때 사용하며, `~/note/brain/.agents/skills/`의 스킬 지침을 따를 것. (ingest, init 금지)
+
+- 지식 캡처/저장: brain-capture
+- 지식 검색: query
 
 ## 코드
 
