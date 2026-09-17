@@ -24,6 +24,9 @@ Match the user's keyword or intent against the workflows below:
 | `run`, `execute`, `exec`, `build`, `impl`, `verify`, `test`, `check` | Run & Verify Plan           | `catalog/run.md`                                 |
 | `simplify`                                                           | Simplify Code               | `catalog/simplify.md`                            |
 | `superpowers`                                                        | Superpowers Workflow        | `catalog/superpowers/using-superpowers/SKILL.md` |
+| `grill`, `grill-me`, `grilling`                                      | Relentless Interview        | `catalog/matt/grill/SKILL.md`                    |
+| `code-review`, `review-diff`, `review`                               | Two-Axis Code Review        | `catalog/matt/code-review/SKILL.md`              |
+| `handoff`                                                            | Session Handoff Document    | `catalog/matt/handoff/SKILL.md`                  |
 
 ## Execution Procedure
 
